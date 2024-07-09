@@ -1,13 +1,10 @@
 
-Certainly! Here is an enhanced and more professional version of the documentation, including the importance of each step and its role in the data pipeline process.
-
----
 
 # Hud's Elastic Suite for Onboarding Data Sources
 
 ## Overview
 Hud's Elastic Suite is an integrated set of tools designed to streamline the process of onboarding data sources into Elasticsearch. This suite empowers users to create and manage GROK parsers, generate Elasticsearch ingest pipelines, and map field types efficiently. The following documentation provides a comprehensive guide on utilizing each component within the suite.
-![enter image description here](https://drive.google.com/file/d/1uNz5z61_WlNYcRYgO9NJGpwhUI3EWZp3/view?usp=sharing)
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Creating the GROK Parser](#creating-the-grok-parser)
@@ -124,7 +121,3 @@ Parameters provide the necessary context and configuration for pipeline and temp
 1. Load the ingest pipeline configuration into Elasticsearch.
 2. Load the index template configuration into Elasticsearch.
 3. Verify that the configurations are correctly set up.
-
----
-
-This professional and comprehensive documentation ensures that users can effectively utilize Hud's Elastic Suite for onboarding data sources into Elasticsearch. By following these steps, users can achieve accurate and efficient data ingestion, transforming raw log data into valuable insights.
