@@ -230,4 +230,4 @@ Parameters provide the necessary context and configuration for pipeline and temp
 3. Verify that the configurations are correctly set up.
 
 ## Diagram
-![Hud's Elastic Suite for Onboarding Data Sources](./path/to/hudsElasticSuite_.jpg)
+![Hud's Elastic Suite for Onboarding Data Sources](https://github.com/huddaannaa/HudsElasticSuite/blob/main/hudsElasticSuite_.jpg)
