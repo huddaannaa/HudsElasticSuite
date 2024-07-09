@@ -5,6 +5,10 @@
 ## Overview
 Hud's Elastic Suite is an integrated set of tools designed to streamline the process of onboarding data sources into Elasticsearch. This suite empowers users to create and manage GROK parsers, generate Elasticsearch ingest pipelines, and map field types efficiently. The following documentation provides a comprehensive guide on utilizing each component within the suite.
 
+## Diagram
+![Hud's Elastic Suite for Onboarding Data Sources](https://github.com/huddaannaa/HudsElasticSuite/blob/main/hudsElasticSuite_.jpg)
+
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Creating the GROK Parser](#creating-the-grok-parser)
@@ -228,6 +232,3 @@ Parameters provide the necessary context and configuration for pipeline and temp
    curl -X PUT "elasticsearch_url/_template/my_template" -H 'Content-Type: application/json' -d @index_template.json
    ```
 3. Verify that the configurations are correctly set up.
-
-## Diagram
-![Hud's Elastic Suite for Onboarding Data Sources](https://github.com/huddaannaa/HudsElasticSuite/blob/main/hudsElasticSuite_.jpg)
