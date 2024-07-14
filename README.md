@@ -11,15 +11,19 @@ Hud's Elastic Suite is an integrated set of tools designed to streamline the pro
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Creating the GROK Parser](#creating-the-grok-parser)
-3. [Step 1: Extract Fields from GROK](#step-1-extract-fields-from-grok)
-4. [Step 2: Build Elasticsearch Pipelines](#step-2-build-elasticsearch-pipelines)
-5. [Step 3: Read Fields and Map Field Types](#step-3-read-fields-and-map-field-types)
-6. [Elastic Ingest Sample Log Generator](#elastic-ingest-sample-log-generator)
-7. [Manual Elasticsearch Loader](#manual-elasticsearch-loader)
-8. [Ingest Pipelines and Index Templates in Elasticsearch](#ingest-pipelines-and-index-templates-in-elasticsearch)
-9. [Parameters](#parameters)
-10. [Example Usage](#example-usage)
+2. [Benefits of the Tools](#benefits-of-the-tools)
+   - [For Security Operations Center (SOC)](#for-security-operations-center-soc)
+   - [For Data Engineers](#for-data-engineers)
+3. [Summary](#summary)
+4. [Creating the GROK Parser](#creating-the-grok-parser)
+5. [Step 1: Extract Fields from GROK](#step-1-extract-fields-from-grok)
+6. [Step 2: Build Elasticsearch Pipelines](#step-2-build-elasticsearch-pipelines)
+7. [Step 3: Read Fields and Map Field Types](#step-3-read-fields-and-map-field-types)
+8. [Elastic Ingest Sample Log Generator](#elastic-ingest-sample-log-generator)
+9. [Manual Elasticsearch Loader](#manual-elasticsearch-loader)
+10. [Ingest Pipelines and Index Templates in Elasticsearch](#ingest-pipelines-and-index-templates-in-elasticsearch)
+11. [Parameters](#parameters)
+12. [Example Usage](#example-usage)
 
 ## Introduction
 Hud's Elastic Suite simplifies the data onboarding process for Elasticsearch by providing a structured approach to log parsing, field extraction, pipeline generation, and field mapping. This suite ensures that data is ingested accurately and efficiently, minimizing the time and effort required to set up and maintain Elasticsearch data sources.
